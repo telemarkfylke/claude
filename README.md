@@ -8,7 +8,7 @@ Delt Claude Code-konfigurasjon og ferdigheter for Telemark Fylke.
 |-----|--------|
 | `CLAUDE.md` | Delte teaminstruksjoner lastet av Claude Code i hver sesjon |
 | `skills/` | Teamspesifikke Claude-ferdigheter (slash-kommandoer) |
-| `config/` | Eksempelkonfigurasjonsfiler til kopiering og tilpasning lokalt |
+| `config/` | Eksempelkonfigurasjonsfiler for lokal kopiering og tilpasning |
 
 ## 🚀 Kom i gang
 
@@ -23,7 +23,7 @@ cp config/keybindings.example.json ~/.claude/keybindings.json
 
 ### 2. 🛠️ Installer ferdigheter
 
-Kopier de ferdighetsfiler du vil ha til din lokale ferdigheter-katalog:
+Kopier ferdighetsfiler du ønsker til din lokale ferdighetsmappe:
 
 ```bash
 cp skills/<skill-name>.md ~/.claude/skills/
@@ -48,6 +48,11 @@ cp CLAUDE.md /path/to/your/project/CLAUDE.md
 - Legg til nye ferdigheter i `skills/` med et beskrivende navn og tydelig frontmatter
 - Hold `config/`-filene som eksempler — commit aldri ekte API-nøkler eller personlige stier
 - Oppdater denne README når du legger til nytt innhold
+
+---
+
+> 💡 **Dagens vits:** Hva er den største løgnen i IT?
+> *«Dokumentasjonen er oppdatert.»* 😄
 
 ---
 
