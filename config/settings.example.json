@@ -1,0 +1,21 @@
+{
+  "//": "Copy this to ~/.claude/settings.local.json and adapt to your setup.",
+  "//2": "Never commit your personal settings.local.json — it is gitignored.",
+
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(npm *)",
+      "Bash(node *)",
+      "Bash(python *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(grep *)"
+    ],
+    "deny": []
+  },
+
+  "env": {
+    "//": "Add project-specific environment variables here if needed"
+  }
+}

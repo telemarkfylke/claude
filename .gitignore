@@ -1,0 +1,10 @@
+# Claude Code local settings (contain personal paths/keys)
+.claude/settings.local.json
+keybindings.json
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.swp

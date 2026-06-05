@@ -1,0 +1,16 @@
+[
+  {
+    "//": "Copy this to ~/.claude/keybindings.json and adapt to your preferences.",
+    "//2": "Never commit your personal keybindings.json — it is gitignored."
+  },
+  {
+    "key": "ctrl+r",
+    "command": "/code-review",
+    "description": "Run code review on current changes"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "/superpowers:test-driven-development",
+    "description": "Start TDD workflow"
+  }
+]
