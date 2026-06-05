@@ -1,50 +1,50 @@
-# TFK Claude Configuration Library
+# TFK Claude-konfigurasjonsbibliotek
 
-Shared Claude Code configuration and skills for Telemark Fylke.
+Delt Claude Code-konfigurasjon og ferdigheter for Telemark Fylke.
 
-## What's in this repo
+## Innhold i dette repoet
 
-| Path | Purpose |
-|------|---------|
-| `CLAUDE.md` | Shared team instructions loaded by Claude Code in every session |
-| `skills/` | Team-specific Claude skills (slash commands) |
-| `config/` | Example configuration files to copy and adapt locally |
+| Sti | Formål |
+|-----|--------|
+| `CLAUDE.md` | Delte teaminstruksjoner som lastes av Claude Code i hver sesjon |
+| `skills/` | Teamspesifikke Claude-ferdigheter (slash-kommandoer) |
+| `config/` | Eksempelkonfigurasjonsfiler som kan kopieres og tilpasses lokalt |
 
-## Getting started
+## Kom i gang
 
-### 1. Copy shared config
+### 1. Kopier delt konfigurasjon
 
-Copy the example files to your local Claude config directory and adapt them:
+Kopier eksempelfilene til din lokale Claude-konfigurasjonskatalog og tilpass dem:
 
 ```bash
 cp config/settings.example.json ~/.claude/settings.local.json
 cp config/keybindings.example.json ~/.claude/keybindings.json
 ```
 
-### 2. Install skills
+### 2. Installer ferdigheter
 
-Copy any skill files you want into your local skills directory:
+Kopier ønskede ferdighetsfiler til din lokale ferdighetskatalog:
 
 ```bash
-cp skills/<skill-name>.md ~/.claude/skills/
+cp skills/<ferdighetsnavn>.md ~/.claude/skills/
 ```
 
-Or symlink the whole folder if you want changes to sync automatically:
+Eller lag en symbollenke til hele mappen hvis du vil at endringer skal synkroniseres automatisk:
 
 ```bash
 ln -s $(pwd)/skills ~/.claude/skills/tfk
 ```
 
-### 3. Use CLAUDE.md
+### 3. Bruk CLAUDE.md
 
-For project repos, copy or symlink `CLAUDE.md` into the repo root so Claude picks up team conventions automatically:
+For prosjektrepoer, kopier eller lenk `CLAUDE.md` til roten av repoet slik at Claude automatisk plukker opp teamkonvensjoner:
 
 ```bash
 cp CLAUDE.md /path/to/your/project/CLAUDE.md
 ```
 
-## Contributing
+## Bidra
 
-- Add new skills to `skills/` with a descriptive name and clear frontmatter
-- Keep `config/` files as examples — never commit real API keys or personal paths
-- Update this README when adding new content
+- Legg til nye ferdigheter i `skills/` med et beskrivende navn og tydelig frontmatter
+- Hold `config/`-filer som eksempler — commit aldri ekte API-nøkler eller personlige stier
+- Oppdater denne README når du legger til nytt innhold
